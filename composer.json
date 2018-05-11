@@ -1,0 +1,20 @@
+{
+  "name": "vendor/core",
+  "description": "test1",
+  "type": "project",
+  "minimum-stability": "alpha",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "core\\": "./vendor/core/",
+      "app\\": "./app/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<section class="container-fluid">
+    <section class="row">
+        <?=$_SESSION["user"];?>
+        <a href="<?=$url_login ?>">登录</a>
+        <a href="<?=$url_reg ?>">注册</a>
+        <a href="<?=$url_logout ?>">登出</a>
+    </section>
+    <section class="row">
+        <h6 id="cdt" class="col-md-2 col-md-offset-2"></h6>
+        <h6 id="cdtS" class="col-md-2 col-md-offset-4"></h6>
+    </section>
+    <button type="button" onclick='connWS();'>连接服务器</button>
+    <br/>
+    <textarea id="content"></textarea>
+    <button type="button" onclick='postMsg();' id="btn" disabled="true">发送</button>
+    <br/>
+    <pre id="msg"></pre>
+</section>

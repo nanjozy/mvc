@@ -1,0 +1,11 @@
+#userAlert, #passAlert {
+    color: red;
+}
+
+.green {
+    color: green !important;
+}
+
+#alert {
+    display: none;
+}

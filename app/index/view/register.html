@@ -1,0 +1,13 @@
+<form method="post" onsubmit="return cCheckT()">
+    用户名： <input type="text" name="username" id="username"><span id='userAlert'></span><br/>
+    密码 ： <input type="password" name="password" id="password"><span id='passAlert'></span><br/>
+    再次输入密码 ： <input type="password" name="password2" id="password2"><span id='pass2Alert'></span><br/>
+    <input type="submit" value="注册" disabled="true" id="btn">
+    <a href="?c=user&m=login">登录</a><a href="/">首页</a>
+</form>
+<section id="alert"></section>
+<script type="application/javascript">
+    var url_reg = '<?=$url_reg?>';
+    var url_cr = '<?=$url_checkReg?>';
+    var url_post = '<?=$url_reg?>';
+</script>
